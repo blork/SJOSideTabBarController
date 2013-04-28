@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		224187A4172C2126008B8903 /* SJOSideTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224187A3172C2126008B8903 /* SJOSideTabBarController.m */; };
-		224187AB172D2E6E008B8903 /* SJOSideTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 224187AA172D2E6E008B8903 /* SJOSideTabItem.m */; };
 		224187B6172D4FE9008B8903 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224187B5172D4FE9008B8903 /* QuartzCore.framework */; };
 		224187BF172D50EC008B8903 /* default-tabbar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 224187BD172D50EC008B8903 /* default-tabbar-icon.png */; };
 		224187C0172D50EC008B8903 /* default-tabbar-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224187BE172D50EC008B8903 /* default-tabbar-icon@2x.png */; };
-		224187C8172D7C20008B8903 /* SJOSideTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 224187C5172D7C1F008B8903 /* SJOSideTabCell.m */; };
-		224187C9172D7C20008B8903 /* UIImage+IPImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 224187C7172D7C1F008B8903 /* UIImage+IPImageUtils.m */; };
+		224187FD172D7DF9008B8903 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224187FC172D7DF9008B8903 /* ExampleViewController.m */; };
+		22418807172D7E08008B8903 /* SJOSideTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22418800172D7E08008B8903 /* SJOSideTabBarController.m */; };
+		22418808172D7E08008B8903 /* SJOSideTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22418802172D7E08008B8903 /* SJOSideTabCell.m */; };
+		22418809172D7E08008B8903 /* SJOSideTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 22418804172D7E08008B8903 /* SJOSideTabItem.m */; };
+		2241880A172D7E08008B8903 /* UIImage+IPImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 22418806172D7E08008B8903 /* UIImage+IPImageUtils.m */; };
 		22C80F0C172C1B800061FCD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C80F0B172C1B800061FCD1 /* UIKit.framework */; };
 		22C80F0E172C1B810061FCD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C80F0D172C1B800061FCD1 /* Foundation.framework */; };
 		22C80F10172C1B810061FCD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C80F0F172C1B810061FCD1 /* CoreGraphics.framework */; };
@@ -23,21 +24,22 @@
 		22C80F1E172C1B810061FCD1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C80F1D172C1B810061FCD1 /* Default.png */; };
 		22C80F20172C1B810061FCD1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C80F1F172C1B810061FCD1 /* Default@2x.png */; };
 		22C80F22172C1B810061FCD1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C80F21172C1B810061FCD1 /* Default-568h@2x.png */; };
-		22C80F2A172C1B9B0061FCD1 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C80F29172C1B9B0061FCD1 /* ExampleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		224187A2172C2126008B8903 /* SJOSideTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJOSideTabBarController.h; path = SJOSideTabBarController/SJOSideTabBarController.h; sourceTree = "<group>"; };
-		224187A3172C2126008B8903 /* SJOSideTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOSideTabBarController.m; path = SJOSideTabBarController/SJOSideTabBarController.m; sourceTree = "<group>"; };
-		224187A9172D2E6E008B8903 /* SJOSideTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJOSideTabItem.h; path = SJOSideTabBarController/SJOSideTabItem.h; sourceTree = "<group>"; };
-		224187AA172D2E6E008B8903 /* SJOSideTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOSideTabItem.m; path = SJOSideTabBarController/SJOSideTabItem.m; sourceTree = "<group>"; };
 		224187B5172D4FE9008B8903 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		224187BD172D50EC008B8903 /* default-tabbar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-tabbar-icon.png"; sourceTree = "<group>"; };
 		224187BE172D50EC008B8903 /* default-tabbar-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-tabbar-icon@2x.png"; sourceTree = "<group>"; };
-		224187C4172D7C1F008B8903 /* SJOSideTabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJOSideTabCell.h; path = SJOSideTabBarController/SJOSideTabCell.h; sourceTree = "<group>"; };
-		224187C5172D7C1F008B8903 /* SJOSideTabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJOSideTabCell.m; path = SJOSideTabBarController/SJOSideTabCell.m; sourceTree = "<group>"; };
-		224187C6172D7C1F008B8903 /* UIImage+IPImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+IPImageUtils.h"; path = "SJOSideTabBarController/UIImage+IPImageUtils.h"; sourceTree = "<group>"; };
-		224187C7172D7C1F008B8903 /* UIImage+IPImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+IPImageUtils.m"; path = "SJOSideTabBarController/UIImage+IPImageUtils.m"; sourceTree = "<group>"; };
+		224187FB172D7DF9008B8903 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		224187FC172D7DF9008B8903 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		224187FF172D7E08008B8903 /* SJOSideTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJOSideTabBarController.h; sourceTree = "<group>"; };
+		22418800172D7E08008B8903 /* SJOSideTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJOSideTabBarController.m; sourceTree = "<group>"; };
+		22418801172D7E08008B8903 /* SJOSideTabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJOSideTabCell.h; sourceTree = "<group>"; };
+		22418802172D7E08008B8903 /* SJOSideTabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJOSideTabCell.m; sourceTree = "<group>"; };
+		22418803172D7E08008B8903 /* SJOSideTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJOSideTabItem.h; sourceTree = "<group>"; };
+		22418804172D7E08008B8903 /* SJOSideTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJOSideTabItem.m; sourceTree = "<group>"; };
+		22418805172D7E08008B8903 /* UIImage+IPImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+IPImageUtils.h"; sourceTree = "<group>"; };
+		22418806172D7E08008B8903 /* UIImage+IPImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IPImageUtils.m"; sourceTree = "<group>"; };
 		22C80F08172C1B800061FCD1 /* SJOSideTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJOSideTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C80F0B172C1B800061FCD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22C80F0D172C1B800061FCD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,8 +53,6 @@
 		22C80F1D172C1B810061FCD1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		22C80F1F172C1B810061FCD1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		22C80F21172C1B810061FCD1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		22C80F28172C1B9B0061FCD1 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
-		22C80F29172C1B9B0061FCD1 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,27 +70,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		224187A5172C2722008B8903 /* SJOSideTabBarController */ = {
+		224187FE172D7E08008B8903 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				224187C4172D7C1F008B8903 /* SJOSideTabCell.h */,
-				224187C5172D7C1F008B8903 /* SJOSideTabCell.m */,
-				224187C6172D7C1F008B8903 /* UIImage+IPImageUtils.h */,
-				224187C7172D7C1F008B8903 /* UIImage+IPImageUtils.m */,
-				224187A9172D2E6E008B8903 /* SJOSideTabItem.h */,
-				224187AA172D2E6E008B8903 /* SJOSideTabItem.m */,
-				224187A2172C2126008B8903 /* SJOSideTabBarController.h */,
-				224187A3172C2126008B8903 /* SJOSideTabBarController.m */,
+				224187FF172D7E08008B8903 /* SJOSideTabBarController.h */,
+				22418800172D7E08008B8903 /* SJOSideTabBarController.m */,
+				22418801172D7E08008B8903 /* SJOSideTabCell.h */,
+				22418802172D7E08008B8903 /* SJOSideTabCell.m */,
+				22418803172D7E08008B8903 /* SJOSideTabItem.h */,
+				22418804172D7E08008B8903 /* SJOSideTabItem.m */,
+				22418805172D7E08008B8903 /* UIImage+IPImageUtils.h */,
+				22418806172D7E08008B8903 /* UIImage+IPImageUtils.m */,
 			);
-			name = SJOSideTabBarController;
+			path = Library;
 			sourceTree = "<group>";
 		};
 		22C80EFF172C1B800061FCD1 = {
 			isa = PBXGroup;
 			children = (
-				224187A5172C2722008B8903 /* SJOSideTabBarController */,
-				22C80F28172C1B9B0061FCD1 /* ExampleViewController.h */,
-				22C80F29172C1B9B0061FCD1 /* ExampleViewController.m */,
 				22C80F11172C1B810061FCD1 /* SJOSideTabBarController */,
 				22C80F0A172C1B800061FCD1 /* Frameworks */,
 				22C80F09172C1B800061FCD1 /* Products */,
@@ -121,6 +118,9 @@
 			children = (
 				22C80F1A172C1B810061FCD1 /* AppDelegate.h */,
 				22C80F1B172C1B810061FCD1 /* AppDelegate.m */,
+				224187FB172D7DF9008B8903 /* ExampleViewController.h */,
+				224187FC172D7DF9008B8903 /* ExampleViewController.m */,
+				224187FE172D7E08008B8903 /* Library */,
 				22C80F12172C1B810061FCD1 /* Supporting Files */,
 			);
 			path = SJOSideTabBarController;
@@ -211,11 +211,11 @@
 			files = (
 				22C80F18172C1B810061FCD1 /* main.m in Sources */,
 				22C80F1C172C1B810061FCD1 /* AppDelegate.m in Sources */,
-				22C80F2A172C1B9B0061FCD1 /* ExampleViewController.m in Sources */,
-				224187A4172C2126008B8903 /* SJOSideTabBarController.m in Sources */,
-				224187AB172D2E6E008B8903 /* SJOSideTabItem.m in Sources */,
-				224187C8172D7C20008B8903 /* SJOSideTabCell.m in Sources */,
-				224187C9172D7C20008B8903 /* UIImage+IPImageUtils.m in Sources */,
+				224187FD172D7DF9008B8903 /* ExampleViewController.m in Sources */,
+				22418807172D7E08008B8903 /* SJOSideTabBarController.m in Sources */,
+				22418808172D7E08008B8903 /* SJOSideTabCell.m in Sources */,
+				22418809172D7E08008B8903 /* SJOSideTabItem.m in Sources */,
+				2241880A172D7E08008B8903 /* UIImage+IPImageUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
